@@ -12,16 +12,16 @@ Devido à eventual extinção e/ou a alteração das vagas dos turnos, a aplica�
 ## Requisitos
 ### Funcionais:
 1. Os dados de entrada são:
-- Lista de alunos inscritos na UC
-- Lista de turnos, com respectivo nome e número de vagas
-- Preferências dos alunos pelos turnos (ordenação dos turnos), etiquetadas temporalmente.
+    - Lista de alunos inscritos na UC
+    - Lista de turnos, com respectivo nome e número de vagas
+    - Preferências dos alunos pelos turnos (ordenação dos turnos), etiquetadas temporalmente.
 2. Os dados de saída são as listagens ordenadas de alunos em cada turno, incluindo a indicação de alunos não inscritos, e alunos não colocados por falta de vagas. A ordem é a da data-hora das marcações.
 3. Só permite realizar uma fase do ciclo de utilização se existirem os dados da fase anterior, e permite limpar todos os ficheiros de dados.
 4. Cada aluno é colocado num só turno e, se se inscrever mais do que uma vez, conta a última marcação.
 5. As vagas são ocupadas por ordem da marcação e da preferência. Os alunos com estatuto de estudante-trabalhadore e portador-de-deficiência têm prioridade, ou seja, colocados antes dos alunos com outros estatutos.
-6. 6. Na eventualidade de ser necessário repetir a geração de turnos:
-- Os alunos para os quais seja possível (colocados abaixo do novo limite), podem congelar previamente a sua colocação.
-- Todos os alunos podem alterar a sua marcação, ficando a contar a nova data-hora.
+6. Na eventualidade de ser necessário repetir a geração de turnos:
+    - Os alunos para os quais seja possível (colocados abaixo do novo limite), podem congelar previamente a sua colocação.
+    - Todos os alunos podem alterar a sua marcação, ficando a contar a nova data-hora.
 ### Não funcionais:
 - O código deve ser estruturado de forma orientada-aos-objectos.
 - As informações que necessitem de ser persistentes devem ser guardadas em ficheiros.
