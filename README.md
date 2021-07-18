@@ -92,8 +92,6 @@ O projecto será avaliado de acordo com as seguintes componentes:
 
 ---
 ---
-#  Especificações
-
 
 ## Requisitos
 ### Fase 1 - Configuração dos Turnos e dos Alunos inscritos na UC
