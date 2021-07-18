@@ -92,16 +92,10 @@ O projecto será avaliado de acordo com as seguintes componentes:
 
 #  Especificações
 
-=============================================================
-==   Se fôr criar um projeto, dar o nome de: ProjectoATC2  ==
-==   Adicionar as configurações para o FCGI                ==
-==   Na pasta 'htdocs', colocar a pasta: projeto           ==
-=============================================================
-
 
 ## Requisitos
-# Fase 1 - Configuração dos Turnos e dos Alunos inscritos na UC
-```
+### Fase 1 - Configuração dos Turnos e dos Alunos inscritos na UC
+
 - No mínimo, cada aluno deve possuir um nome e um número mecanográfico.
 - O nome não pode conter dígitos e o número mecanográfico não pode conter outra coisa que dígitos.
 - O Estatuto Especial, como o próprio nome indica, pode não existir, contudo, se existir, terá de ser um EE válido:
@@ -138,10 +132,10 @@ O projecto será avaliado de acordo com as seguintes componentes:
       - Aviso Automático no que toca à possibilidade da quantidade dos Alunos inscritos já na UC ser superior às vagas totais dos turnos;
       - Possibilidade de retomar as Inscrições a qualquer momento;
       - Possibilidade de dar reset e começar um novo ciclo de Inscrições
-```
 
-# Fase 2 - Marcações
-```
+
+### Fase 2 - Marcações
+
 - Etapa responsável pela marcação dos alunos da UC em questão (configurados na Fase 1), nos turnos, também estes configurados na Fase 1
 - Possibilidade de o utilizador escolher entre os dois modos (Configuração ou Marcação)
 - Ao entrar no menu que diz respeito às marcações, tem de obrigatoriamente:
@@ -176,10 +170,10 @@ O projecto será avaliado de acordo com as seguintes componentes:
       - Consulta em tempo real de quantas vagas ainda exitem, com os alunos prioritários já nos seus devidos turnos;
       - Possibilidade de retomar as Marcações;
       - Possibilidade de dar reset e começar um novo ciclo de Inscrições e Marcações
-```
 
-# Fase 3 - Geração dos Turnos
-```
+
+### Fase 3 - Geração dos Turnos
+
 - Compreende-se por geração dos turnos o processo de integrar cada Aluno inscrito na UC (Fase 1) que efetuou uma inscrição válida (Fase 2) no respetivo Turno
 - Quando o Docente escolher esta opção, é validado um conjunto de situações:
       - Só poderá entrar neste modo se efetuou as restantes etapas com sucesso;
@@ -200,6 +194,6 @@ O projecto será avaliado de acordo com as seguintes componentes:
       - Aviso no que toca à possibilidade de algum aluno constar na lista da UC mas ainda não ter realizado a sua Marcação nos Turnos; 
       - Reset automático de forma a poder começar imediatamente um novo ciclo de Inscrições e Marcações para outra UC
 
-```
+
 
 
