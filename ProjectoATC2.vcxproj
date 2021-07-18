@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d2a21923-0a71-4815-a1c7-625f7676e8e2}</ProjectGuid>
+    <RootNamespace>ProjectoATC2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\..\..\..\..\Apache24\htdocs\projeto\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\..\..\..\Apache24\htdocs\projeto\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\include;C:\Users\Diogo\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\include;%(AdditionalIncludeDirectories);C:\Users\User\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\User\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libfcgi.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\include;;C:\Users\User\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\User\source\repos\PL3-01\ProjectoATC2\ProjectoATC2\libfcgi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libfcgi.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="About.cpp" />
+    <ClCompile Include="AbstractMenu.cpp" />
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Booking.cpp" />
+    <ClCompile Include="BookingMenu.cpp" />
+    <ClCompile Include="Clear.cpp" />
+    <ClCompile Include="ConfigMenu.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Context.cpp" />
+    <ClCompile Include="Dummy.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FastCGI.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="Home.cpp" />
+    <ClCompile Include="HomeMenu.cpp" />
+    <ClCompile Include="HtmlPage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parsing.cpp" />
+    <ClCompile Include="Report.cpp" />
+    <ClCompile Include="Shift.cpp" />
+    <ClCompile Include="Shifts.cpp" />
+    <ClCompile Include="ShiftsInfo.cpp" />
+    <ClCompile Include="StringUtils.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Students.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Validator.cpp" />
+    <ClCompile Include="WebBooking.cpp" />
+    <ClCompile Include="WebBookingConsult.cpp" />
+    <ClCompile Include="WebBookingFile.cpp" />
+    <ClCompile Include="WebBookingFind.cpp" />
+    <ClCompile Include="WebBookingManual.cpp" />
+    <ClCompile Include="WebBookingRemove.cpp" />
+    <ClCompile Include="WebDelete.cpp" />
+    <ClCompile Include="WebGenerate.cpp" />
+    <ClCompile Include="WebRegister.cpp" />
+    <ClCompile Include="WebRegisterFile.cpp" />
+    <ClCompile Include="WebRegisterManual.cpp" />
+    <ClCompile Include="WebRegisterRemove.cpp" />
+    <ClCompile Include="WebRegisterShiftsFile.cpp" />
+    <ClCompile Include="WebRegisterShiftsManual.cpp" />
+    <ClCompile Include="WebRegisterShiftsManual1.cpp" />
+    <ClCompile Include="WebRegisterShiftsManual2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="About.h" />
+    <ClInclude Include="AbstractMenu.h" />
+    <ClInclude Include="BaseMenu.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Booking.h" />
+    <ClInclude Include="BookingMenu.h" />
+    <ClInclude Include="Clear.h" />
+    <ClInclude Include="ConfigMenu.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Context.h" />
+    <ClInclude Include="Dummy.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="FastCGI.h" />
+    <ClInclude Include="Home.h" />
+    <ClInclude Include="HtmlPage.h" />
+    <ClInclude Include="Report.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="HomeMenu.h" />
+    <ClInclude Include="Parsing.h" />
+    <ClInclude Include="Shift.h" />
+    <ClInclude Include="Shifts.h" />
+    <ClInclude Include="ShiftsInfo.h" />
+    <ClInclude Include="StringUtils.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Students.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Validator.h" />
+    <ClInclude Include="WebBooking.h" />
+    <ClInclude Include="WebBookingConsult.h" />
+    <ClInclude Include="WebBookingFile.h" />
+    <ClInclude Include="WebBookingFind.h" />
+    <ClInclude Include="WebBookingManual.h" />
+    <ClInclude Include="WebBookingRemove.h" />
+    <ClInclude Include="WebDelete.h" />
+    <ClInclude Include="WebGenerate.h" />
+    <ClInclude Include="WebRegister.h" />
+    <ClInclude Include="WebRegisterFile.h" />
+    <ClInclude Include="WebRegisterManual.h" />
+    <ClInclude Include="WebRegisterRemove.h" />
+    <ClInclude Include="WebRegisterShiftsFile.h" />
+    <ClInclude Include="WebRegisterShiftsManual.h" />
+    <ClInclude Include="WebRegisterShiftsManual1.h" />
+    <ClInclude Include="WebRegisterShiftsManual2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

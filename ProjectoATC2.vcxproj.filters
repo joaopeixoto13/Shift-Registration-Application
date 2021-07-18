@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parsing.cpp">
+      <Filter>Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Students.cpp">
+      <Filter>Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>StringUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Student</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Shift.cpp">
+      <Filter>Shifts\Shift</Filter>
+    </ClCompile>
+    <ClCompile Include="Shifts.cpp">
+      <Filter>Shifts\Shifts</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiftsInfo.cpp">
+      <Filter>Shifts\ShiftsInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>Students\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeMenu.cpp">
+      <Filter>Menu\HomeMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigMenu.cpp">
+      <Filter>Menu\ConfigMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingMenu.cpp">
+      <Filter>Menu\BookingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Booking.cpp">
+      <Filter>Booking\Booking</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Booking\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlPage.cpp">
+      <Filter>HtmlPage</Filter>
+    </ClCompile>
+    <ClCompile Include="FastCGI.cpp">
+      <Filter>FastCGI</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>HtmlMenus\Derived Menus\Home</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMenu.cpp">
+      <Filter>HtmlMenus\AbstractMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>HtmlMenus\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>HtmlMenus\Derived Menus\About</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBooking.cpp">
+      <Filter>HtmlMenus\Derived Menus\Booking</Filter>
+    </ClCompile>
+    <ClCompile Include="WebDelete.cpp">
+      <Filter>HtmlMenus\Derived Menus\Delete</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegister.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register</Filter>
+    </ClCompile>
+    <ClCompile Include="WebGenerate.cpp">
+      <Filter>HtmlMenus\Derived Menus\Generate</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterFile.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterFile</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterRemove.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterRemove</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterShiftsManual2.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual2</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterManual.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterManual</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterShiftsFile.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsFile</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterShiftsManual.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual</Filter>
+    </ClCompile>
+    <ClCompile Include="WebRegisterShiftsManual1.cpp">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual1</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBookingFile.cpp">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingFile</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBookingConsult.cpp">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingConsult</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBookingFind.cpp">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingFind</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBookingManual.cpp">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingManual</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBookingRemove.cpp">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingRemove</Filter>
+    </ClCompile>
+    <ClCompile Include="Dummy.cpp">
+      <Filter>HtmlMenus\Derived Menus\Dummy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parsing.h">
+      <Filter>Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Students.h">
+      <Filter>Students</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Validator</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>StringUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Student</Filter>
+    </ClInclude>
+    <ClInclude Include="Shift.h">
+      <Filter>Shifts\Shift</Filter>
+    </ClInclude>
+    <ClInclude Include="Shifts.h">
+      <Filter>Shifts\Shifts</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiftsInfo.h">
+      <Filter>Shifts\ShiftsInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Students\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeMenu.h">
+      <Filter>Menu\HomeMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigMenu.h">
+      <Filter>Menu\ConfigMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingMenu.h">
+      <Filter>Menu\BookingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Booking.h">
+      <Filter>Booking\Booking</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Booking\Book</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlPage.h">
+      <Filter>HtmlPage</Filter>
+    </ClInclude>
+    <ClInclude Include="FastCGI.h">
+      <Filter>FastCGI</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>HtmlMenus\Derived Menus\Home</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMenu.h">
+      <Filter>HtmlMenus\AbstractMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>HtmlMenus\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>HtmlMenus\Derived Menus\About</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBooking.h">
+      <Filter>HtmlMenus\Derived Menus\Booking</Filter>
+    </ClInclude>
+    <ClInclude Include="WebDelete.h">
+      <Filter>HtmlMenus\Derived Menus\Delete</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegister.h">
+      <Filter>HtmlMenus\Derived Menus\Register</Filter>
+    </ClInclude>
+    <ClInclude Include="WebGenerate.h">
+      <Filter>HtmlMenus\Derived Menus\Generate</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterFile.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterFile</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterRemove.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterRemove</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterShiftsManual2.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual2</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterManual.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterManual</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterShiftsFile.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsFile</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterShiftsManual.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual</Filter>
+    </ClInclude>
+    <ClInclude Include="WebRegisterShiftsManual1.h">
+      <Filter>HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual1</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBookingFile.h">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingFile</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBookingConsult.h">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingConsult</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBookingFind.h">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingFind</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBookingManual.h">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingManual</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBookingRemove.h">
+      <Filter>HtmlMenus\Derived Menus\Booking\WebBookingRemove</Filter>
+    </ClInclude>
+    <ClInclude Include="Dummy.h">
+      <Filter>HtmlMenus\Derived Menus\Dummy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Parsing">
+      <UniqueIdentifier>{69dfcc56-dcc1-4943-b768-c184461798d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shifts">
+      <UniqueIdentifier>{d1501b53-e52e-4413-8c18-80b6005d681f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2f802d33-32ec-4ad3-b7ef-c924f615a09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{7ae41e7d-6b71-40d9-a20a-533a993541f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validator">
+      <UniqueIdentifier>{274fda55-e6dc-4dad-9ec2-17d7a2086552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringUtils">
+      <UniqueIdentifier>{47315505-9495-41ab-a9e0-debf0e353b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Students">
+      <UniqueIdentifier>{668cd87f-51d8-4d94-ad1f-09652a3f563b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Booking">
+      <UniqueIdentifier>{870be177-200e-4774-a236-5ae8962bcaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Report">
+      <UniqueIdentifier>{7e297887-eacb-4041-b057-5fe3f0b30e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{57951b6e-acf6-4d50-8e10-24f0fe53a182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Context">
+      <UniqueIdentifier>{2ef6ebc4-d3fc-4766-8198-26d4cbc80c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Student">
+      <UniqueIdentifier>{66155328-1783-4f4b-8285-08504172d0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shifts\Shift">
+      <UniqueIdentifier>{19ece09d-103e-4b5d-a797-4a30efa50323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shifts\Shifts">
+      <UniqueIdentifier>{ad62867b-136d-452d-b856-5d9ee4a09225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shifts\ShiftsInfo">
+      <UniqueIdentifier>{1bd58b29-988a-499d-8015-7a11bf82b5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Students\HashTable">
+      <UniqueIdentifier>{c8ed0224-90b0-473c-94ec-dac9e498e6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\HomeMenu">
+      <UniqueIdentifier>{70094e39-2c08-4625-b856-5b71c78c1621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\ConfigMenu">
+      <UniqueIdentifier>{f5115f5d-4634-4e05-9815-caec12da71d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\BookingMenu">
+      <UniqueIdentifier>{9565480f-0d46-46e4-81d2-4909ebcec769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Booking\Booking">
+      <UniqueIdentifier>{3684ba2f-b0ea-405c-9811-523dd1281273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Booking\Book">
+      <UniqueIdentifier>{2b898fc5-f940-4d0b-91e2-9b992c2c6f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clear">
+      <UniqueIdentifier>{6c4bd38d-e8d8-48b4-a798-7f2ae3f2d764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlPage">
+      <UniqueIdentifier>{05bd342c-e862-47cd-951e-4c32311f1d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCGI">
+      <UniqueIdentifier>{31f63f6d-6dc2-42b5-aa24-d6492ead660f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus">
+      <UniqueIdentifier>{c2323f60-c34e-4cb1-89b2-1030acdfbe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\AbstractMenu">
+      <UniqueIdentifier>{440c3b3e-429d-4140-98d3-f20aba8ef4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Factory">
+      <UniqueIdentifier>{51ebb3c1-1590-4b9d-a109-cf83bc631010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus">
+      <UniqueIdentifier>{c0453c8a-0fdf-4594-aade-c288453ee253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\About">
+      <UniqueIdentifier>{828a9648-7ec1-47c7-9ba1-28631f8c4aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Home">
+      <UniqueIdentifier>{709bb138-36ed-49a4-ad3c-b6ca64869d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Delete">
+      <UniqueIdentifier>{701200bc-9154-4384-8045-1b4053f1a8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Booking">
+      <UniqueIdentifier>{4a2a82db-25e0-43bc-862c-84e6e2e8e15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register">
+      <UniqueIdentifier>{4aaa2661-4e51-494f-93ec-6e50d3f1376e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Generate">
+      <UniqueIdentifier>{ee7a02fc-923b-457b-aca1-0ad70f71deba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterFile">
+      <UniqueIdentifier>{c85a1631-0b01-490f-8939-86a013ad65d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterManual">
+      <UniqueIdentifier>{6995c0df-af22-40cc-9d54-0db33c7ad8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterShiftsFile">
+      <UniqueIdentifier>{c15840ac-8b50-4123-b47c-42bb5986f8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual">
+      <UniqueIdentifier>{e4cd3d47-ef81-49f1-a298-60b416bf4131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual1">
+      <UniqueIdentifier>{8fa5182e-93b5-4617-8d1a-3a6cc6b56f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterRemove">
+      <UniqueIdentifier>{ef3f5698-5af7-40f2-83c7-edef2982a5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Booking\WebBookingFile">
+      <UniqueIdentifier>{b448339c-f5ae-4f3d-a7f7-aa6691254641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Booking\WebBookingManual">
+      <UniqueIdentifier>{e37f9193-5dc2-4ecb-910e-9a89cb00cc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Booking\WebBookingFind">
+      <UniqueIdentifier>{816bda4f-b1ca-463e-b75f-701711ebffa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Booking\WebBookingRemove">
+      <UniqueIdentifier>{d5b8b0f6-1c93-4449-befb-ceaa3def6fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Booking\WebBookingConsult">
+      <UniqueIdentifier>{a38fcc6b-bb1b-437d-8952-37a174428e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Register\WebRegisterShiftsManual2">
+      <UniqueIdentifier>{bb6910ac-e9c9-482d-9848-a740d7a5709a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HtmlMenus\Derived Menus\Dummy">
+      <UniqueIdentifier>{f21c0986-064f-4104-8526-ccd70df75d00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
