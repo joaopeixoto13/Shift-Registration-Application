@@ -90,6 +90,8 @@ O projecto será avaliado de acordo com as seguintes componentes:
 - distribuição coerente e equilibrada das funcionalidades, ou seja, respectivamente, funções com relações estreitas devem estar juntas e classes não devem ser demasiado grandes.
 
 
+---
+---
 #  Especificações
 
 
